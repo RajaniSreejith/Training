@@ -1,3 +1,37 @@
+
+/****************************
+
+The Datax shipping company wants to calculate the total cost of each item in the container. Get the number of items in container and cost of each item as input. Write a program to calculate the total cost of each item in the container. This program will throw a NumberFormatException when cost of a item is not a number. Use Exception handling mechanism to handle the exception.
+
+Problem specification:
+The file name should be Main.java
+
+Input and Output format:
+Refer sample input and output for formatting specifications.
+[All text in bold corresponds to input and the rest corresponds to output]
+Sample Input and Output 2:
+Enter the total number of items
+3
+Enter the shipping price of the item 1 :  
+1
+Enter the shipping price of the item 2 :  
+hai
+Exception : java.lang.NumberFormatException
+Re-enter the item price :
+3
+Enter the shipping price of the item 3 :  
+10
+Total cost of the container is 14
+
+
+
+
+
+
+***************************************88/
+
+
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
