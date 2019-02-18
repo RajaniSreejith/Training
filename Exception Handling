@@ -1,36 +1,33 @@
+/********************************************************************
+The Datax shipping company wants to calculate the average cost of each item in the container. Get the container price and the number of items in the container as input. Write a program to get the average cost of each item. This program will throw an arithmetic exception when number of items in the container is zero(divide by zero). Use Exception handling mechanism to handle the exception. Use single try and catch block. In catch block print the exception thrown. 
 
-/****************************
-
-The Datax shipping company wants to calculate the total cost of each item in the container. Get the number of items in container and cost of each item as input. Write a program to calculate the total cost of each item in the container. This program will throw a NumberFormatException when cost of a item is not a number. Use Exception handling mechanism to handle the exception.
-
-Problem specification:
+Problem Specification :
 The file name should be Main.java
 
-Input and Output format:
-Refer sample input and output for formatting specifications.
-[All text in bold corresponds to input and the rest corresponds to output]
-Sample Input and Output 2:
-Enter the total number of items
-3
-Enter the shipping price of the item 1 :  
-1
-Enter the shipping price of the item 2 :  
-hai
-Exception : java.lang.NumberFormatException
-Re-enter the item price :
-3
-Enter the shipping price of the item 3 :  
-10
-Total cost of the container is 14
+Input format :
+The first integer consists of an integer which corresponds to the number of items in the container. 
+The second integer consists of an integer which corresponds to the total amount of items in the container. 
 
+Output format :
+The output consists of an Integer value which corresponds to the average cost of the item.
+If the number of items in the container is 0 it will throw an exception, print the exception in the specified format.
+Refer sample input and output for display specifications.
 
+[All text in bold corresponds to input and rest corresponds to output]
+Sample Input and Output 1: 
+Enter the container price :
+12000
+Enter the number of items in the container :
+ 0
+Exception : java.lang.ArithmeticException
 
-
-
-
-***************************************88/
-
-
+Sample Input and Output 2: 
+Enter the container price :
+35000 
+Enter the number of items in the container :
+500
+The average price of the item is Rs.70
+******************************************************/
 
 import java.io.BufferedReader;
 import java.io.IOException;
