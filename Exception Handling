@@ -1,0 +1,24 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Main {
+
+    public static void main(String[] args) throws NumberFormatException, IOException {
+  	
+        BufferedReader buf = new BufferedReader(new InputStreamReader(System.in));
+		System.out.println("Enter the container price :");
+        double price=Integer.parseInt(buf.readLine());
+        int avg;
+		System.out.println("Enter the number of items in the container :");
+        int item=Integer.parseInt(buf.readLine());
+        try {
+        	avg=(int)price/item;
+        System.out.println("The average price of the item is Rs."+avg);
+        }catch(Exception e)
+        {
+        	System.out.println("Exception : java.lang.ArithmeticException");
+        }
+	}
+
+}
